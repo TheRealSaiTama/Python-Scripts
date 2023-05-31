@@ -1,5 +1,3 @@
-Sure! Here's an example of a `README.md` file for a GitHub repository named "Python-Scripts" that contains two Python scripts, "screenshot.py" and "funfact.py":
-
 ```markdown
 # Python Scripts
 
