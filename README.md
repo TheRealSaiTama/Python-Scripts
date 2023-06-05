@@ -1,5 +1,3 @@
-Here's an updated version of the `README.md` file that includes the information about the newly added `webcrawler.py` script:
-
 ```markdown
 # Python Scripts
 
@@ -12,14 +10,16 @@ This script allows you to capture the screen, display the captured screen, and s
 ### Usage
 
 1. Install the required dependencies by running the following command:
-   ```
-   pip install pyscreenshot Pillow
-   ```
+
+```shell
+pip install pyscreenshot Pillow
+```
 
 2. Run the script using the following command:
-   ```
-   python screenshot.py
-   ```
+
+```shell
+python screenshot.py
+```
 
 ### Code
 
@@ -43,14 +43,16 @@ This script generates and prints random fun facts.
 ### Usage
 
 1. Install the required dependencies by running the following command:
-   ```
-   pip install randfacts
-   ```
+
+```shell
+pip install randfacts
+```
 
 2. Run the script using the following command:
-   ```
-   python funfact.py
-   ```
+
+```shell
+python funfact.py
+```
 
 ### Code
 
@@ -68,19 +70,44 @@ This script implements a web crawler to find all links on a web page.
 ### Usage
 
 1. Install the required dependencies by running the following command:
-   ```
-   pip install requests beautifulsoup4
-   ```
+
+```shell
+pip install requests beautifulsoup4
+```
 
 2. Run the script using the following command:
-   ```
-   python webcrawler.py
-   ```
+
+```shell
+python webcrawler.py
+```
 
 The script will crawl the web page specified in the `url` variable and print out all the links found.
 
-Feel free to explore and use these scripts as needed.
+## whatsappautomation.py
 
+This script automates sending WhatsApp messages using the `pywhatkit` library.
+
+### Usage
+
+1. Install the required dependencies by running the following command:
+
+```shell
+pip install pywhatkit
 ```
 
-I will continue updating the `README.md` file as i keep adding new scripts
+2. Update the `phone_number`, `message`, `hour`, and `minute` variables in the script with your desired values.
+
+3. Run the script using the following command:
+
+```shell
+python whatsappautomation.py
+```
+
+The script will send the specified message to the provided phone number at the specified time.
+
+Feel free to explore and use these scripts as needed.
+
+I will continue updating the `README.md` file as I keep adding new scripts.
+```
+
+Please note that the code you provided for `whatsappautomation.py` is added to the README.md file, along with the appropriate usage instructions.
