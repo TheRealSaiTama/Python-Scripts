@@ -1,11 +1,10 @@
-```markdown
-# Python Scripts
+Python Scripts
+================
 
-This repository contains various Python scripts for different purposes.
+1. **screenshot.py**
+------------------
 
-## screenshot.py
-
-This script allows you to capture the screen, display the captured screen, and save it as an image file.
+Captures the screen, displays the captured screen, and saves it as an image file.
 
 ### Usage
 
@@ -36,9 +35,10 @@ capture.show()
 capture.save("capturedthroughscript.jpg")
 ```
 
-## funfact.py
+2. **funfact.py**
+------------------
 
-This script generates and prints random fun facts.
+Generates and prints random fun facts.
 
 ### Usage
 
@@ -63,9 +63,10 @@ print("Fact of the moment:", get_fact(filter_enabled=False))
 print("Stay Silent with these facts:", get_fact(only_unsafe=True))
 ```
 
-## webcrawler.py
+3. **webcrawler.py**
+------------------
 
-This script implements a web crawler to find all links on a web page.
+Implements a web crawler to find all links on a web page.
 
 ### Usage
 
@@ -83,9 +84,10 @@ python webcrawler.py
 
 The script will crawl the web page specified in the `url` variable and print out all the links found.
 
-## whatsappautomation.py
+4. **whatsappautomation.py**
+-------------------------
 
-This script automates sending WhatsApp messages using the `pywhatkit` library.
+Automates sending WhatsApp messages using the `pywhatkit` library.
 
 ### Usage
 
@@ -105,9 +107,47 @@ python whatsappautomation.py
 
 The script will send the specified message to the provided phone number at the specified time.
 
-Feel free to explore and use these scripts as needed.
+5. **camimg.py**
+--------------
 
-I will continue updating the `README.md` file as I keep adding new scripts.
+Captures an image from the default camera and saves it as a JPEG file.
+
+### Usage
+
+1. Install the required dependencies by running the following command:
+
+```shell
+pip install cv2
 ```
 
-Please note that the code you provided for `whatsappautomation.py` is added to the README.md file, along with the appropriate usage instructions.
+2. Run the script using the following command:
+
+```shell
+python camimg.py
+```
+
+### Code
+
+```python
+import cv2
+
+imgcapture = cv2.VideoCapture(0)
+result = True
+while(result):
+    ret, frame = imgcapture.read()
+    cv2.imwrite("test.jpg", frame)
+    result = False
+    print("Image Captured...")
+
+imgcapture.release()
+```
+
+| Script | Description | Usage |
+| --- | --- | --- |
+| screenshot.py | Captures the screen, displays the captured screen, and saves it as an image file. | 1. Install pyscreenshot and Pillow<br>2. Run the script using `python screenshot.py` |
+| funfact.py | Generates and prints random fun facts. | 1. Install randfacts<br>2. Run the script using `python funfact.py` |
+| webcrawler.py | Implements a web crawler to find all links on a web page. | 1. Install requests and beautifulsoup4<br>2. Run the script using `python webcrawler.py` |
+| whatsappautomation.py | Automates sending WhatsApp messages using the pywhatkit library. | 1. Install pywhatkit<br>2. Update the variables with your desired values<br>3. Run the script using `python whatsappautomation.py` |
+| camimg.py | Captures an image from the default camera and saves it as a JPEG file. | 1. Install cv2<br>2. Run the script using `python camimg.py` |
+
+Feel free to explore and use these scripts as needed. I will continue updating the `README.md` file as I keep adding new scripts.
