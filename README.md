@@ -142,6 +142,27 @@ while(result):
 imgcapture.release()
 ```
 
+6. **ServerScript.py**
+-------------------------
+
+Implements a TCP chat server that allows clients to connect and send messages.
+
+### Usage
+
+1. Install the required dependencies by running the following command:
+
+```shell
+pip install socket
+```
+
+2. Run the script using the following command:
+
+```shell
+python ServerScript.py
+```
+
+The script will start a TCP server on port 3000 and listen for incoming connections. When a client connects, the script will print the client's address and receive messages from the client. The script will also send messages to the client.
+
 | Script | Description | Usage |
 | --- | --- | --- |
 | screenshot.py | Captures the screen, displays the captured screen, and saves it as an image file. | 1. Install pyscreenshot and Pillow<br>2. Run the script using `python screenshot.py` |
@@ -149,5 +170,6 @@ imgcapture.release()
 | webcrawler.py | Implements a web crawler to find all links on a web page. | 1. Install requests and beautifulsoup4<br>2. Run the script using `python webcrawler.py` |
 | whatsappautomation.py | Automates sending WhatsApp messages using the pywhatkit library. | 1. Install pywhatkit<br>2. Update the variables with your desired values<br>3. Run the script using `python whatsappautomation.py` |
 | camimg.py | Captures an image from the default camera and saves it as a JPEG file. | 1. Install cv2<br>2. Run the script using `python camimg.py` |
+| ServerScript.py | Implements a TCP chat server that allows clients to connect and send messages. | 1. Install socket<br>2. Run the script using `python ServerScript.py` |
 
 Feel free to explore and use these scripts as needed. I will continue updating the `README.md` file as I keep adding new scripts.
