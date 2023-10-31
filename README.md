@@ -133,8 +133,6 @@ while(result):
     cv2.imwrite("test.jpg", frame)
     result = False
     print("Image Captured...")
-
-imgcapture.release()
 ```
 
 ## 6. ServerScript.py
@@ -205,7 +203,26 @@ Randomly selects a person to pay the bill.
 python billroulette.py
 ```
 
-# Python Scripts
+## 11. removebackground.py
+
+Removes the background from an image and saves it as a transparent image.
+
+### Usage
+
+1. Install the required dependencies by running the following command:
+
+```shell
+pip install opencv-python
+```
+
+2. Run the script using the following command:
+
+```shell
+python removebackground.py
+```
+
+The script will remove the background from the input image and save the result as a transparent image.
+```
 
 | Script | Description | Usage |
 | --- | --- | --- |
@@ -219,5 +236,6 @@ python billroulette.py
 | **fizzbuzz.py** | Generates a random number and applies the FizzBuzz rules. | 1. Run the script using `python fizzbuzz.py` |
 | **twodicerolling.py** | Simulates rolling two dice and displays the results. | 1. Run the script using `python twodicerolling.py` |
 | **billroulette.py** | Randomly selects a person to pay the bill. | 1. Run the script using `python billroulette.py` |
+| **removebackground.py** | Removes the background from an image and saves it as a transparent image. | 1. Install opencv-python<br>2. Run the script using `python removebackground.py` |
 
 Feel free to explore and use these scripts as needed. If you have any questions or suggestions, don't hesitate to reach out!
