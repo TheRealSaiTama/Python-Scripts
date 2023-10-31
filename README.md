@@ -1,10 +1,3 @@
-```markdown
-# Python Scripts
-
-## 1. screenshot.py
-
-Captures the screen, displays the captured screen, and saves it as an image file.
-
 ### Usage
 
 1. Install the required dependencies by running the following command:
@@ -223,19 +216,3 @@ python removebackground.py
 
 The script will remove the background from the input image and save the result as a transparent image.
 ```
-
-| Script | Description | Usage |
-| --- | --- | --- |
-| **screenshot.py** | Captures the screen, displays the captured screen, and saves it as an image file. | 1. Install pyscreenshot and Pillow<br>2. Run the script using `python screenshot.py` |
-| **funfact.py** | Generates and prints random fun facts. | 1. Install randfacts<br>2. Run the script using `python funfact.py` |
-| **webcrawler.py** | Implements a web crawler to find all links on a web page. | 1. Install requests and beautifulsoup4<br>2. Run the script using `python webcrawler.py` |
-| **whatsappautomation.py** | Automates sending WhatsApp messages using the pywhatkit library. | 1. Install pywhatkit<br>2. Update the variables with your desired values<br>3. Run the script using `python whatsappautomation.py` |
-| **camimg.py** | Captures an image from the default camera and saves it as a JPEG file. | 1. Install cv2<br>2. Run the script using `python camimg.py` |
-| **ServerScript.py** | Implements a TCP chat server that allows clients to connect and send messages. | 1. Install socket<br>2. Run the script using `python ServerScript.py` |
-| **findthegold.py** | A game where you try to find the hidden gold on a 3x3 grid. | 1. Run the script using `python findthegold.py` |
-| **fizzbuzz.py** | Generates a random number and applies the FizzBuzz rules. | 1. Run the script using `python fizzbuzz.py` |
-| **twodicerolling.py** | Simulates rolling two dice and displays the results. | 1. Run the script using `python twodicerolling.py` |
-| **billroulette.py** | Randomly selects a person to pay the bill. | 1. Run the script using `python billroulette.py` |
-| **removebackground.py** | Removes the background from an image and saves it as a transparent image. | 1. Install opencv-python<br>2. Run the script using `python removebackground.py` |
-
-Feel free to explore and use these scripts as needed. If you have any questions or suggestions, don't hesitate to reach out!
